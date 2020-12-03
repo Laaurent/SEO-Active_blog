@@ -2,18 +2,6 @@
 <html lang="en">
 <head>
 
-  <!-- Google Analytics -->
- <!--  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview');
-  </script> -->
-  <!-- End Google Analytics -->
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -50,10 +38,9 @@
     <main>
       <article>
           <header>
-            <div id="img-article">
-			</div>
+            <div id="img-article" role="img" aria-label="Ooway holding a stick"></div>
             <a href="https://medium.com/swlh/finding-your-oogway-ce52ddab6b9d" title="Article title" target="_blank"><h1>Finding your Oogway</h1></a>
-            <p class="author">Written by <span class="author-name">Tarun Kohli</span></p>
+            <p class="author">Written by <span class="author-name" role="contentinfo" aria-label="the author name">Tarun Kohli</span></p>
             <p class="date"><time datetime="2018-08-08">14/03/2018</time> | <a href="#_comments">12 Comments</a></p>
           </header>
 
@@ -72,10 +59,10 @@
             <figcaption>Image from the movie "Kung Fu Panda"</figcaption>
           </figure>
 
-          <div class="special-element">
+          <div class="special-element" role="doc-pullquote" aria-label="Quote from the movie">
             <blockquote>
               <p>  ‘‘You are too concerned with what was and what will be. There's a saying: "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the "present".’’</p>
-              <cite>Quote from <span class="author-name">the movie</span></cite>
+              <cite>Quote from <span class="author-name" role="contentinfo" aria-label="the author of the citation">the movie</span></cite>
             </blockquote>
           </div>
 
@@ -107,30 +94,30 @@
             <figcaption>Image from the movie "Kung Fu Panda"</figcaption>
           </figure>
 
-          <div class="special-element">
-            <div id="rectangle2"></div>
+          <div class="special-element" role="doc-endnote" aria-label="Quote from the movie" >
+            <div id="rectangle2" role="listitem" aria-hidden="true"></div>
             <blockquote>
               <p itemprop="citation"> ‘‘You must believe’’</p>
-              <footer><cite>Quote from <span class="author-name">the movie</span></cite></footer>
+              <footer><cite>Quote from <span class="author-name" role="contentinfo" aria-label="the author of the citation">the movie</span></cite></footer>
             </blockquote>
           </div>
 
 
-          <div id="tags">
+          <div id="tags" role="list" aria-label="List of keywords">
             <a href="#">
-              <div class="article-tag">Mentorship</div>
+              <div class="article-tag" role="listitem" aria-label="Item keyword">Mentorship</div>
             </a>
             <a href="#">
-              <div class="article-tag">Self Improvement</div>
+              <div class="article-tag" role="listitem" aria-label="Item keyword">Self Improvement</div>
             </a>
             <a href="#">
-              <div class="article-tag">Startup Lessons</div>
+              <div class="article-tag" role="listitem" aria-label="Item keyword">Startup Lessons</div>
             </a>
             <a href="#">
-              <div class="article-tag">Career Advice</div>
+              <div class="article-tag" role="listitem" aria-label="Item keyword">Career Advice</div>
             </a>
             <a href="#">
-              <div class="article-tag">Workplace</div>
+              <div class="article-tag" role="listitem" aria-label="Item keyword">Workplace</div>
             </a>
           </div>
 
@@ -138,47 +125,47 @@
 
           <section id="comments">
 
-            <div class="comments-container" role="article">
+            <div class="comments-container" role="list" aria-label="comments">
 
-              <div class="comment">
-                <div class="author-commentimg">
+              <div class="comment" role="listitem" aria-label="item comment">
+                <div class="author-commentimg" role="img"  aria-label="authors's picture">
                   <img src="img/author1.png" alt="Jane Doe">
                 </div>
-                <div class="comment-description">
+                <div class="comment-description" role="article" aria-label="comment content">
                   <p class="comments-author">Shalvika Sood</p>
                   <p class="date"><time datetime="2018-03-14">August 8, 2018</time> | <a href="#_comments">6:35 pm</a></p>
                   <p class="comment-content">Very well said Tarun! Love the Oogway analogy. Thanks for the pointers — A mentor is easily one of the most important people in ones life and finding the right person is a combination of a lot of hard work with intent on the part of the student and some degree of luck :)..or maybe in this case, luck favors those who strive! I like how you end with ‘You must believe’ because it all comes down to that.</p>
                 </div>
-                <div class="comment-separator"></div>
+                <div class="comment-separator" aria-hidden="true" ></div>
               </div>
 
-              <div class="comment">
-                <div class="author-commentimg">
+              <div class="comment" role="listitem" aria-label="item comment">
+                <div class="author-commentimg"  role="img"  aria-label="authors's picture">
                   <img src="img/author2.png" alt="Jane Doe">
                 </div>
-                <div class="comment-description">
+                <div class="comment-description" role="article" aria-label="comment content">
                   <p class="comments-author">Jonathan Hetcher</p>
                   <p class="date"><time datetime="2018-08-08">August 8, 2018</time> | <a href="#_comments">4:15 pm</a></p>
                   <p class="comment-content" itemprop="text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue commodo Euismod Vulputate. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut </p>
                 </div>
-                <div class="comment-separator"></div>
+                <div class="comment-separator" aria-hidden="true"></div>
               </div>
 
-              <div class="comment">
-                <div class="author-commentimg">
+              <div class="comment" role="listitem" aria-label="item comment">
+                <div class="author-commentimg" role="img"  aria-label="authors's picture">
                   <img src="img/author3.png" alt="Jane Doe">
                 </div>
-                <div class="comment-description">
+                <div class="comment-description" role="article" aria-label="comment content">
                   <p class="comments-author">Matthew Lenneman</p>
                   <p class="date"><time datetime="2018-08-08">August 8, 2018</time> | <a href="#_comments">10:25 am</a></p>
                   <p class="comment-content" itemprop="text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue commodo Euismod Vulputate. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut </p>
                 </div>
-                <div class="comment-separator"><!--rendre la balise invisible pour les non-voyant--></div>
+                <div class="comment-separator" aria-hidden="true"><!--rendre la balise invisible pour les non-voyant--></div>
               </div>
 
             </div>
 
-          <div class="cta">
+          <div class="cta" role="button" aria-label="Button more comments">
             <a href="#"><p>MORE COMMENTS</p></a>
           </div>
 
