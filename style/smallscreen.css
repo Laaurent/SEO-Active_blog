@@ -47,7 +47,7 @@ main .author {
 }
 
 main .author-name {
-  color: #e6373a;
+  color: #cd3134;
 }
 
 main .date {
@@ -130,7 +130,7 @@ main h2 {
 
 .txt-courant a {
   font-style: italic;
-  color: #e52731;
+  color: #cd3134;
   text-decoration: underline;
 }
 
