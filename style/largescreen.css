@@ -46,7 +46,7 @@ main .author {
 }
 
 main .author-name {
-  color: #c52e30;
+  color: #e52731;
 }
 
 main .date {
@@ -107,13 +107,13 @@ blockquote p {
 #rectangle1 {
   width: 0.5rem;
   height: 14rem;
-  background-color: #c52e30;
+  background-color: #e52731;
 }
 
 #rectangle2 {
   width: 0.5rem;
   height: 6rem;
-  background-color: #c52e30;
+  background-color: #e52731;
 }
 
 cite {
@@ -136,7 +136,7 @@ main h2 {
 
 .txt-courant a {
   font-style: italic;
-  color: #c52e30;
+  color: #e52731;
   text-decoration: underline;
 }
 
